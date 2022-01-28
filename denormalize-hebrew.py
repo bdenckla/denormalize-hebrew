@@ -64,7 +64,7 @@ def main():
 
 def _fp_main(in_fp, out_fp):  # the "file pointer" core of main
     for in_line in in_fp:
-        out_fp.write(_denorm(in_line) + '\n')
+        out_fp.write(_denorm(in_line))
     
 
 def openw(pathobj):  # open for writing
