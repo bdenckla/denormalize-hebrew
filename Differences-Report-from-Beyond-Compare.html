@@ -1,0 +1,146 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+body { font-family: sans-serif; font-size: 11pt; }
+img.AutoScale { max-width: 100%; max-height: 100%; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigMod { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigOrphan { color: #000000; background-color: #FAEEFF; }
+td.TextItemNum { color: #696969; background-color: #F0F0F0; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigOrphan { color: #000000; background-color: #F1E3FF; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+td.TextItemInsigAdd { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EEEEFF; text-decoration: line-through; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br>
+Produced: 1/28/2022 11:14:27 AM<br>
+&nbsp; &nbsp;
+<br>
+Mode:&nbsp; Differences &nbsp;
+<br>
+Left file: [...]\sample-input.diffable.txt &nbsp;
+<br>
+Right file: [...]\sample-output.diffable.txt &nbsp;
+<br>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">258</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;α,:_,$,<span class="TextSegSigDiff">∵,</span>·sh,&lt;,r&quot;,</td>
+</tr>
+<tr class="SubsectionEnd">
+<td class="TextItemNum AlignRight">259</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;$,<span class="TextSegSigDiff">:,</span>·sh,l,a,x,w,o,[p]&quot;,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">258</td>
+<td class="TextItemSigMod">&quot;α,:_,$,·sh<span class="TextSegSigDiff">,∵</span>,&lt;,r&quot;,</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">259</td>
+<td class="TextItemSigMod">&quot;$,·sh<span class="TextSegSigDiff">,:</span>,l,a,x,w,o,[p]&quot;,</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SubsectionAll">
+<td class="TextItemNum AlignRight">262</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;v,:<span class="TextSegSigDiff">,·</span>,α,∵,⅃,r,∵,⍭.&quot;,</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">262</td>
+<td class="TextItemSigMod">&quot;v,<span class="TextSegSigDiff">·,</span>:,α,∵,⅃,r,∵,⍭.&quot;,</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SubsectionAll">
+<td class="TextItemNum AlignRight">273</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;h,_,y,a<span class="TextSegSigDiff">,·</span>,⅃,d&quot;,</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">273</td>
+<td class="TextItemSigMod">&quot;h,_,y,<span class="TextSegSigDiff">·,</span>a,⅃,d&quot;,</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">277</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;h,_,g,a<span class="TextSegSigDiff">,·</span>,d,⅄,w,o,l&quot;,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">278</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;α,:_,$,<span class="TextSegSigDiff">∵,</span>·sh,r,[p]&quot;,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">279</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;ʕ,a,$,<span class="TextSegSigDiff">a,</span>·si,⅃,h&quot;,</td>
+</tr>
+<tr class="SubsectionEnd">
+<td class="TextItemNum AlignRight">280</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;m,o,$,<span class="TextSegSigDiff">∵,</span>·sh,ƶ,h&quot;,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">277</td>
+<td class="TextItemSigMod">&quot;h,_,g,<span class="TextSegSigDiff">·,</span>a,d,⅄,w,o,l&quot;,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">278</td>
+<td class="TextItemSigMod">&quot;α,:_,$,·sh<span class="TextSegSigDiff">,∵</span>,r,[p]&quot;,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">279</td>
+<td class="TextItemSigMod">&quot;ʕ,a,$,·si<span class="TextSegSigDiff">,a</span>,⅃,h&quot;,</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">280</td>
+<td class="TextItemSigMod">&quot;m,o,$,·sh<span class="TextSegSigDiff">,∵</span>,ƶ,h&quot;,</td>
+</tr>
+<tr class="SectionGap"><td colspan="3">&nbsp;</td></tr>
+<tr class="SubsectionAll">
+<td class="TextItemNum AlignRight">282</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSigMod">&quot;k,oa<span class="TextSegSigDiff">,·</span>,l,HPU MAQAF,y,i,$,<span class="TextSegSigDiff">:,</span>·si,r,a,α,‥,𝓂,l,HPU SOF PASUQ&quot;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemNum AlignRight">282</td>
+<td class="TextItemSigMod">&quot;k,<span class="TextSegSigDiff">·,</span>oa,l,HPU MAQAF,y,i,$,·si<span class="TextSegSigDiff">,:</span>,r,a,α,‥,𝓂,l,HPU SOF PASUQ&quot;</td>
+</tr>
+</table>
+<br>
+</body>
+</html>

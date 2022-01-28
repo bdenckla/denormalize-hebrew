@@ -1,0 +1,285 @@
+{
+"code_point_names": [
+[
+46,
+null,
+"FULL STOP"
+],
+[
+1425,
+"⅄",
+"HEBREW ACCENT ETNAHTA"
+],
+[
+1428,
+"ƶ",
+"HEBREW ACCENT ZAQEF QATAN"
+],
+[
+1430,
+"[ti]",
+"HEBREW ACCENT TIPEHA"
+],
+[
+1431,
+"◆",
+"HEBREW ACCENT REVIA"
+],
+[
+1433,
+"[p]",
+"HEBREW ACCENT PASHTA"
+],
+[
+1436,
+"[ge]",
+"HEBREW ACCENT GERESH"
+],
+[
+1443,
+"⅃",
+"HEBREW ACCENT MUNAH"
+],
+[
+1444,
+"<",
+"HEBREW ACCENT MAHAPAKH"
+],
+[
+1445,
+"[me]",
+"HEBREW ACCENT MERKHA"
+],
+[
+1448,
+"[qa]",
+"HEBREW ACCENT QADMA"
+],
+[
+1456,
+":",
+"HEBREW POINT SHEVA"
+],
+[
+1458,
+":_",
+"HEBREW POINT HATAF PATAH"
+],
+[
+1460,
+"i",
+"HEBREW POINT HIRIQ"
+],
+[
+1461,
+"‥",
+"HEBREW POINT TSERE"
+],
+[
+1462,
+"∵",
+"HEBREW POINT SEGOL"
+],
+[
+1463,
+"_",
+"HEBREW POINT PATAH"
+],
+[
+1464,
+"a",
+"HEBREW POINT QAMATS"
+],
+[
+1465,
+"o",
+"HEBREW POINT HOLAM"
+],
+[
+1468,
+"·",
+"HEBREW POINT DAGESH OR MAPIQ"
+],
+[
+1469,
+"𝓂",
+"HEBREW POINT METEG"
+],
+[
+1470,
+"HPU MAQAF",
+"HEBREW PUNCTUATION MAQAF"
+],
+[
+1473,
+"·sh",
+"HEBREW POINT SHIN DOT"
+],
+[
+1474,
+"·si",
+"HEBREW POINT SIN DOT"
+],
+[
+1475,
+"HPU SOF PASUQ",
+"HEBREW PUNCTUATION SOF PASUQ"
+],
+[
+1479,
+"oa",
+"HEBREW POINT QAMATS QATAN"
+],
+[
+1488,
+"α",
+"HEBREW LETTER ALEF"
+],
+[
+1489,
+"v",
+"HEBREW LETTER BET"
+],
+[
+1490,
+"g",
+"HEBREW LETTER GIMEL"
+],
+[
+1491,
+"d",
+"HEBREW LETTER DALET"
+],
+[
+1492,
+"h",
+"HEBREW LETTER HE"
+],
+[
+1493,
+"w",
+"HEBREW LETTER VAV"
+],
+[
+1494,
+"z",
+"HEBREW LETTER ZAYIN"
+],
+[
+1495,
+"x",
+"HEBREW LETTER HET"
+],
+[
+1497,
+"y",
+"HEBREW LETTER YOD"
+],
+[
+1499,
+"k",
+"HEBREW LETTER KAF"
+],
+[
+1500,
+"l",
+"HEBREW LETTER LAMED"
+],
+[
+1501,
+"m.",
+"HEBREW LETTER FINAL MEM"
+],
+[
+1502,
+"m",
+"HEBREW LETTER MEM"
+],
+[
+1504,
+"n",
+"HEBREW LETTER NUN"
+],
+[
+1506,
+"ʕ",
+"HEBREW LETTER AYIN"
+],
+[
+1508,
+"f",
+"HEBREW LETTER PE"
+],
+[
+1509,
+"⍭.",
+"HEBREW LETTER FINAL TSADI"
+],
+[
+1510,
+"⍭",
+"HEBREW LETTER TSADI"
+],
+[
+1511,
+"q",
+"HEBREW LETTER QOF"
+],
+[
+1512,
+"r",
+"HEBREW LETTER RESH"
+],
+[
+1513,
+"$",
+"HEBREW LETTER SHIN"
+],
+[
+1514,
+"τ",
+"HEBREW LETTER TAV"
+]
+],
+"lines": [
+[
+"d,v,r,y,m.",
+"l,d"
+],
+[
+"FULL STOP,FULL STOP,FULL STOP"
+],
+[
+"y,α"
+],
+[
+"l,:,k,oa,l,HPU MAQAF,h,a,[qa],α,o,τ,o,[ge],τ",
+"w,:,h,_,m,·,w,o,f,:,τ,i,◆,y,m.",
+"α,:_,$,·sh,∵,<,r",
+"$,·sh,:,l,a,x,w,o,[p]",
+"y,:,h,o,w,a,ƶ,h",
+"l,_,ʕ,:_,$,·si,[ti],w,o,τ",
+"v,·,:,α,∵,⅃,r,∵,⍭.",
+"m,i,⍭,:,r,a,⅄,y,i,m.",
+"l,:,f,_,r,:,ʕ,o,[me],h",
+"w,·,l,:,k,oa,l,HPU MAQAF,ʕ,:_,v,a,d,a,[ti],y,w",
+"w,·,l,:,k,oa,l,HPU MAQAF,α,_,r,:,⍭,𝓂,w,o,HPU SOF PASUQ"
+],
+[
+"y,v"
+],
+[
+"y,v,w,·,l,:,k,o,l,[p]",
+"h,_,y,·,a,⅃,d",
+"h,_,x,:_,z,a,q,a,ƶ,h",
+"w,·,l,:,k,o,[ti],l",
+"h,_,m,·,w,o,r,a,⅃,α",
+"h,_,g,·,a,d,⅄,w,o,l",
+"α,:_,$,·sh,∵,r,[p]",
+"ʕ,a,$,·si,a,⅃,h",
+"m,o,$,·sh,∵,ƶ,h",
+"l,:,ʕ,‥,y,n,‥,[ti],y",
+"k,·,oa,l,HPU MAQAF,y,i,$,·si,:,r,a,α,‥,𝓂,l,HPU SOF PASUQ"
+]
+]
+}
