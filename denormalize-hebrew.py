@@ -58,18 +58,13 @@ def main():
     parser.add_argument('input_filename')
     parser.add_argument('output_filename')
     args = parser.parse_args()
-    with open(args.input_filename, encoding='utf-8') as ifp:
-        _with_tmp_openw(args.output_filename, lambda ofp: _fp_main(ifp, ofp))
-
-
-def _fp_main(in_fp, out_fp):  # the "file pointer" core of main
-    for in_line in in_fp:
-        out_fp.write(_denorm(in_line))
-    
-
-def openw(pathobj):  # open for writing
-    os.makedirs(pathobj.parent, exist_ok=True)
-    return open(pathobj, 'w', encoding='utf-8')
+    with open(args.input_filename, encoding='utf-8') as in_fp:
+        tpath = tmp_path(args.output_filename)
+        os.makedirs(tpath.parent, exist_ok=True)
+        with open(tpath, 'w', encoding='utf-8') as out_fp:
+            for in_line in in_fp:
+                out_fp.write(_denorm(in_line))
+    os.replace(tpath, args.output_filename)
 
 
 def tmp_path(path):
@@ -77,13 +72,6 @@ def tmp_path(path):
     # e.g. from /dfoo/dbar/stem.ext return /dfoo/dbar/stem.tmp.ext
     # where suffix = .ext
     return pathobj.parent / (str(pathobj.stem) + '.tmp' + pathobj.suffix)
-
-
-def _with_tmp_openw(path, callback):
-    tpath = tmp_path(path)
-    with openw(tpath) as outfp:
-        callback(outfp)
-    os.replace(tpath, path)
 
 
 if __name__ == '__main__':
